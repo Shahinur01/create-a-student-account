@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&family=Poppins:wght@400;500;700&family=Red+Hat+Display:ital,wght@0,300;0,400;1,800&display=swap');
+body{
+    background-color: #eee;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left:25%;
+    
+}
+.login-btn {
+    text-decoration: none;
+    color: white;
+    border-radius:15px;
+    padding: 10px 20px;
+    background-color: purple;
+    text-transform: uppercase;
+}
+.login-btn:hover {
+    color: #fff;
+    background-color: #ccc;
+}
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color:purple;
+    text-transform: uppercase;
+    color: white;
+}
+.btn-submit{
+    background-color: purple;
+    color: white;
+    text-transform: uppercase;
+}
+.form-field{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    
+}
+.loading{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    top: 76%;
+    display: none;
+
+}
